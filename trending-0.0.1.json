@@ -1,5 +1,5 @@
 {
-	"article": "//article[@class=\"Box-row\"]",
+	"article": "//article[@class='Box-row']",
 	"full_name":"//h2[@class=\"h3 lh-condensed\"]/a/@href",
 	"name":"/h2[@class=\"h3 lh-condensed\"]/a/text()",
 	"desc_repo":"/p[@class=\"col-9 color-fg-muted my-1 pr-4\"]/text()",
