@@ -13,12 +13,13 @@
 	"stars_today":"//div[@class=\"f6 color-fg-muted mt-2\"]/span[@class=\"d-inline-block float-sm-right\"]/text()",
 	"stars_this_date_range":"0,1",
 	"stars_text_this_date_range":"1,..",
+	"contributor":"//div[@class=\"f6 color-fg-muted mt-2\"]/span[@class=\"d-inline-block mr-3\"]",
 	"contributors": {
-		"avatar_url": "//div[@class=\"f6 color-fg-muted mt-2\"]/span[@class=\"d-inline-block mr-3\"]/a/img/@src",
-		"data_hydro_click":"//div[@class=\"f6 color-fg-muted mt-2\"]/span[@class=\"d-inline-block mr-3\"]/a/@data-hydro-click",
-		"data_hydro_click_hmac":"//div[@class=\"f6 color-fg-muted mt-2\"]/span[@class=\"d-inline-block mr-3\"]/a/@data-hydro-click-hmac",
-		"data_hovercard_url":"//div[@class=\"f6 color-fg-muted mt-2\"]/span[@class=\"d-inline-block mr-3\"]/a/@data-hovercard-url",
-		"user_name":"//div[@class=\"f6 color-fg-muted mt-2\"]/span[@class=\"d-inline-block mr-3\"]/a/@href"
+		"avatar_url": "//a/img/@src",
+		"data_hydro_click":"//a/@data-hydro-click",
+		"data_hydro_click_hmac":"//a/@data-hydro-click-hmac",
+		"data_hovercard_url":"//a/@data-hovercard-url",
+		"user_name":"//a/@href"
 	},
 	"language_color":"//div[@class=\"f6 color-fg-muted mt-2\"]/span/span[@class=\"repo-language-color\"]/@style"
 }
