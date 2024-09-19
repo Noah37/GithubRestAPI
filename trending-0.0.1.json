@@ -21,5 +21,5 @@
 		"data_hovercard_url":"@data-hovercard-url",
 		"user_name":"@href"
 	},
-	"language_color":"//div[@class=\"f6 color-fg-muted mt-2\"]/span/span[@class=\"repo-language-color\"]/@style"
+	"language_color":"substring-after(//div[@class=\"f6 color-fg-muted mt-2\"]/span/span[@class=\"repo-language-color\"]/@style, ':')"
 }
