@@ -4,8 +4,8 @@
 	"name":"//h2[@class=\"h3 lh-condensed\"]/a/text()",
 	"desc_repo":"//p[@class=\"col-9 color-fg-muted my-1 pr-4\"]/text()",
 	"language":"//div[@class=\"f6 color-fg-muted mt-2\"]/span[@class=\"d-inline-block ml-0 mr-3\"]/span[@itemprop=\"programmingLanguage\"]/text()",
-	"forks_count":"//div[@class=\"f6 color-fg-muted mt-2\"]/a[2]/text()",
-	"stargazers_count":"//div[@class=\"f6 color-fg-muted mt-2\"]/a[1]/text()",
+	"forks_count":"//div[@class=\"f6 color-fg-muted mt-2\"]/a[2]",
+	"stargazers_count":"//div[@class=\"f6 color-fg-muted mt-2\"]/a[1]",
 	"owner":{
 		"login_name":"//h2[@class=\"h3 lh-condensed\"]/a/span/text()",
 		"avatar_url":"https://avatars.githubusercontent.com/{{login_name}}"
