@@ -16,10 +16,10 @@
 	"contributor":"//div[@class=\"f6 color-fg-muted mt-2\"]/span[@class=\"d-inline-block mr-3\"]/a[@class=\"d-inline-block\"]",
 	"contributors": {
 		"avatar_url": "//img/@src",
-		"data_hydro_click":"//@data-hydro-click",
-		"data_hydro_click_hmac":"//@data-hydro-click-hmac",
-		"data_hovercard_url":"//@data-hovercard-url",
-		"user_name":"//@href"
+		"data_hydro_click":"@data-hydro-click",
+		"data_hydro_click_hmac":"@data-hydro-click-hmac",
+		"data_hovercard_url":"@data-hovercard-url",
+		"user_name":"@href"
 	},
 	"language_color":"//div[@class=\"f6 color-fg-muted mt-2\"]/span/span[@class=\"repo-language-color\"]/@style"
 }
